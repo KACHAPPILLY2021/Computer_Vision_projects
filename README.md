@@ -41,7 +41,7 @@
         <li><a href="#shape-alignment">Shape Alignment</a></li>
       </ul>
       <ul>
-        <li><a href="object-instance-recognition">Object Instance Recognition</a></li>
+        <li><a href="#object-instance-recognition">Object Instance Recognition</a></li>
       </ul>
     </li>
     <li>
@@ -75,9 +75,6 @@
       </ul>
       <ul>
         <li><a href="#semantic-segmentation">Semantic Segmentation</a></li>
-      </ul>
-      <ul>
-        <li><a href="#template-matching">Template Matching</a></li>
       </ul>
     </li>
     <li>
@@ -133,7 +130,7 @@ Original Image | Reconstructed Image
 * Waldo identified in Map
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/4_puzzle.PNG?raw=true" width=50% alt="hybrid">
 
-Detailed decription for this project can be found [here](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_1)
+[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_1) - To view detailed project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -154,7 +151,7 @@ Corners Detector | Optical Flow
 ### Object Instance Recognition
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/3_main.PNG?raw=true" width=70% alt="sift">
 
-Detailed decription for this project can be found [here](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_2)
+[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_2) - To view detailed project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -179,7 +176,7 @@ Camera position x | Camera position y | Camera position z
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_x.PNG?raw=true" width=100% alt="x"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_y.PNG?raw=true" width=100% alt="y"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_z.PNG?raw=true" width=100% alt="z"> 
 
-Detailed decription for this project can be found [here](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_3)
+[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_3) - To view detailed project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -202,7 +199,7 @@ Input Image  | Mask Image
 * Likelihood map : $P(pixel/foreground)$
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_4/output_4/2_main_P(foreground).PNG?raw=true" height =25% width=25% alt="gmm">
 
-Detailed decription for this project can be found [here](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_4)
+[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_4) - To view detailed project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
