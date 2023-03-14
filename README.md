@@ -137,7 +137,7 @@ Original Image | Reconstructed Image
 * Waldo identified in Map
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/4_puzzle.PNG?raw=true" width=50% alt="hybrid">
 
-[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_1) - To view detailed project
+[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_1#readme) - To view detailed project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -206,7 +206,7 @@ Input Image  | Mask Image
 * Likelihood map : $P(pixel/foreground)$
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_4/output_4/2_main_P(foreground).PNG?raw=true" height =25% width=25% alt="gmm">
 
-[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_4) - To view detailed project
+[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_4#readme) - To view detailed project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
