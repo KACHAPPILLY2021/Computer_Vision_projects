@@ -16,27 +16,73 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#about-the-repository">About The Repository</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#project-1">Project 1</a>
       <ul>
-        <li><a href="#demo">Demo</a></li>
+        <li><a href="#hybrid-images">Hybrid Images</a></li>
+      </ul>
+      <ul>
+        <li><a href="#pyramid-image">Pyramid Image</a></li>
+      </ul>
+      <ul>
+        <li><a href="#edge-detection">Edge Detection</a></li>
+      </ul>
+      <ul>
+        <li><a href="#template-matching">Template Matching</a></li>
       </ul>
     </li>
     <li>
-      <a href="#documentation">Documentation</a>
+      <a href="#project-2">Project 2</a>
       <ul>
-        <li><a href="#report">Report</a></li>
+        <li><a href="#feature-tracker">Feature Tracker</a></li>
+      </ul>
+      <ul>
+        <li><a href="#shape-alignment">Shape Alignment</a></li>
+      </ul>
+      <ul>
+        <li><a href="object-instance-recognition">Object Instance Recognition</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#project-3">Project 3</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#epipolar-geometry">Epipolar Geometry</a></li>
+      </ul>
+      <ul>
+        <li><a href="#image-stitching">Image Stitching</a></li>
+      </ul>
+      <ul>
+        <li><a href="#affine-structure-from-motion">Affine Structure from Motion</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributors">Contributors</a></li>
+    <li>
+      <a href="#project-4">Project 4</a>
+      <ul>
+        <li><a href="#slic-superpixels">SLIC Superpixels</a></li>
+      </ul>
+      <ul>
+        <li><a href="#graphcut-segmentation">Graphcut Segmentation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#project-5">Project 5</a>
+      <ul>
+        <li><a href="#basic-backpropagation">Basic Backpropagation</a></li>
+      </ul>
+      <ul>
+        <li><a href="#image-classifier">Image Classifier</a></li>
+      </ul>
+      <ul>
+        <li><a href="#semantic-segmentation">Semantic Segmentation</a></li>
+      </ul>
+      <ul>
+        <li><a href="#template-matching">Template Matching</a></li>
+      </ul>
+    </li>
+    <li>
+      <a <a href="#prerequisites">Prerequisites</a>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -44,8 +90,8 @@
 
 
 
-<!-- ABOUT THIS REPO -->
-## About This Repository
+<!-- ABOUT THE REPO -->
+## About The Repository
 
 
 
@@ -53,6 +99,7 @@ This repository contains all the projects that I implemented for my graduate cou
 All major Computer Vision concepts implemented here were developed from scratch ```without``` utilizing ```OpenCV's built-in``` functions.
 
 Below are the outputs for each project and their associated links to view them.
+Use ```Table of Contents``` for easy navigation among projects.
 
 ```DISCLAIMER``` : Please note that in the future, the input data may no longer be accessible as it was obtained from the university server.
 
@@ -63,7 +110,7 @@ Below are the outputs for each project and their associated links to view them.
 
 
 <!-- Project1 -->
-## Hybrid Images | Pyramid Image | Edge Detection | Template Matching
+## Project 1
 
 The outputs for this project is as follows:
 
@@ -90,87 +137,109 @@ Detailed decription for this project can be found [here](https://github.com/KACH
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-These are the instructions to get started on the project.
-To get a local copy up and running follow these simple steps.
+<!-- Project2 -->
+## Project 2
 
-### Prerequisites
-* atleast C++17
-* OS - Linux (tested)
+The outputs for this project is as follows:
 
+### Feature Tracker
+Corners Detector | Optical Flow
+:-------------------------:|:-------------------------:
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/1_main_harris.PNG?raw=true" width=100% alt="harris"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/1_main_flow.PNG?raw=true" width=100% alt="optical flow">
 
-### Installation
+### Shape Alignment
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/2_main.PNG?raw=true" width=100% alt="shape">
 
-Installing the micromouse simulator and running the code.
+### Object Instance Recognition
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/3_main.PNG?raw=true" width=70% alt="sift">
 
-1. Make directory
-   ```sh
-   mkdir ~/RWA2_simulator
-   ```
-2. Clone the repos
-   ```sh
-   cd ∼ /RWA2_simulator
-   ```
-   ```sh
-   git clone https://github.com/mackorone/mms.git
-   ```
-   ```sh
-   git clone https://github.com/micromouseonline/mazefiles.git
-   ```
-   ```sh
-   git clone https://github.com/KACHAPPILLY2021/maze_solving_algorithm.git
-   ```
-3. Compile Simulator
-   ```sh
-   sudo apt-get install qt5-default
-   ```
-   ```sh
-   cd mms/src
-   ```
-   ```sh
-   qmake && make
-   ```
-
-
+Detailed decription for this project can be found [here](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_2)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Project3 -->
+## Project 3
 
-How to start simulator and use this DFS code in it.
-1. Start simulator
-   ```sh
-   cd ∼ /RWA2_simulator/mms/bin
-   ```
-   ```sh
-   ./mms
-   ```
-2. Choose any maze type and Click on the + button as shown in figure.
+The outputs for this project is as follows:
 
-3. **Directory**: Click Browse and navigate to 'maze_solving_algorithm'
-4. Enter **Build command** as:
-   ```sh
-   g++ src/main.cpp src/mouse.cpp src/node.cpp src/api.cpp
-   ```
-5. Enter **Run Command** as :
-  ```sh
-  ./a.out
-  ```
-6. Then Press **Build**, followed by **RUN** under the **Controls** Section
+### Epipolar Geometry
+Image 1 | Image 2
+:-------------------------:|:-------------------------:
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/1_img1.PNG?raw=true" width=100% alt="epi1"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/1_img2.PNG?raw=true" width=100% alt="epi2">
+
+### Image Stitching
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/2_a_main.PNG?raw=true" width=100% alt="stitch">
+
+### Affine Structure from Motion
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_b(ele90-azi180).PNG?raw=true" height =50% width=50% alt="sfm">
+
+Camera position x | Camera position y | Camera position z
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_x.PNG?raw=true" width=100% alt="x"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_y.PNG?raw=true" width=100% alt="y"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_z.PNG?raw=true" width=100% alt="z"> 
+
+Detailed decription for this project can be found [here](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_3)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- CONTRIBUTORS -->
-## Contributors
+<!-- Project4 -->
+## Project 4
 
-Here are the
+The outputs for this project is as follows:
 
+### SLIC Superpixels
+* Number of superpixels - 1024
+* Weight Initialization - 20
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_4/output_4/1_main(k1024_m20).PNG?raw=true" height =35% width=35% alt="slic">
+
+### Graphcut Segmentation 
+Input Image  | Mask Image
+:-------------------------:|:-------------------------:
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_4/output_4/2_a_input.PNG?raw=true" width=100% alt="cat"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_4/output_4/2_b_mask.PNG?raw=true" width=100% alt="mask">
+
+* Likelihood map : $P(pixel/foreground)$
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_4/output_4/2_main_P(foreground).PNG?raw=true" height =25% width=25% alt="gmm">
+
+Detailed decription for this project can be found [here](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_4)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- Project5 -->
+## Project 5
+
+The outputs for this project is as follows:
+
+### Basic Backpropagation 
+
+
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/1_main_acc.PNG?raw=true" height =30% width=30% alt="acc">
+
+### Image Classifier
+
+*  (CIFAR-10 dataset)
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/2_loss.PNG?raw=true" height =35% width=35% alt="loss">
+
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/2_conf.PNG?raw=true" height =35% width=35% alt="confusion">
+
+### Semantic Segmentation
+
+* (VGG 16 dataset)
+
+Original | Ground Truth | FCN-32 output
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/3_input.PNG" width=100% alt="x"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/3_GT.PNG?raw=true" width=100% alt="y"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/3_fcn32.PNG?raw=true" width=100% alt="z"> 
+
+[CLICK HERE](https://github.com/KACHAPPILLY2021/Computer_Vision_projects/tree/main/proj_5) - To view detailed project
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- Prerequisites -->
+## Prerequisites
+* Free Google [Colab](https://colab.research.google.com/) version should be sufficient
 
 
 
