@@ -112,18 +112,25 @@ Use ```Table of Contents``` for easy navigation among projects.
 The outputs for this project is as follows:
 
 ### Hybrid Images
+* A hybrid image is the sum of a low-pass filtered version of the one image and a high-pass filtered
+version of a second image by making use of FFT.
+
 * Einstein and Marlyn Monroe hybrid image
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/1_main.PNG?raw=true" width=75% alt="hybrid">
 
 ### Pyramid Image
+* Gaussian and Laplacian pyramid of level 5 implemented, followed by image reconstruction.
+
 Original Image | Reconstructed Image
 :-------------------------:|:-------------------------:
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/texture.jpg?raw=true" width=40% alt="original"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/2_main.PNG?raw=true" width=30% alt="reconstructed">
 
 ### Edge Detection
+* Computed the boundary magnitude and orientation using a set of oriented filters, such as elongated Gaussian derivative filters. Followed by non maxima suppression of the soft boundary map.
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/3_main.PNG?raw=true" width=100% alt="hybrid">
 
 ### Template Matching
+* Matched template for a given map by implementing Sum of Squared Differences.
 * Puzzle Piece to find
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/4_waldo.PNG?raw=true" width=10% alt="hybrid">
 
