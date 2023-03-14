@@ -1,3 +1,10 @@
+<a name="readme-top"></a>
+
+<li><a href="#hybrid-images">Hybrid Images</a></li>
+<li><a href="#pyramid-image">Pyramid Image</a></li>
+<li><a href="#edge-detection">Edge Detection</a></li>
+<li><a href="#template-matching">Template Matching</a></li>
+
 ## Hybrid Images
 ### Working Principle
 * It works by the addition of a low frequency image and high freq image, and resultant
@@ -11,6 +18,8 @@ So after a certain distance the brain recognises the background image.
 
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/1_a.PNG?raw=true" width=100% alt="original pics">
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/1_b.PNG?raw=true" width=100% alt="fft pics">
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Pyramid Image
 ### Working Principle
@@ -35,6 +44,13 @@ So after a certain distance the brain recognises the background image.
 </div>
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_1/output_1/2_lap.PNG?raw=true" width=100% alt="lap">
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Edge Detection
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Template Matching
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
