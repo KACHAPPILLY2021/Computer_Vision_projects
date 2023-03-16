@@ -14,7 +14,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary><h3>Table of Contents</h3></summary>
   <ol>
     <li><a href="#about-the-repository">About The Repository</a></li>
     <li>
@@ -96,7 +96,7 @@ This repository contains all the projects that I implemented for my graduate cou
 All major Computer Vision concepts implemented here were developed from scratch ```without``` utilizing ```OpenCV's built-in``` functions.
 
 Below are the outputs for each project and their associated links to view them.
-Use ```Table of Contents``` for easy navigation among projects.
+Use ```Table of Contents``` for easy navigation through projects.
 
 ```DISCLAIMER``` : Please note that in the future, the input data may no longer be accessible as it was obtained from the university server.
 
