@@ -68,13 +68,13 @@
     <li>
       <a href="#project-5">Project 5</a>
       <ul>
-        <li><a href="#basic-backpropagation">Basic Backpropagation</a></li>
+        <li><a href="#basic-backpropagation-in-neural-network">Basic Backpropagation in Neural Network</a></li>
       </ul>
       <ul>
-        <li><a href="#image-classifier">Image Classifier</a></li>
+        <li><a href="#image-classification-using-cnn">Image Classification using CNN</a></li>
       </ul>
       <ul>
-        <li><a href="#semantic-segmentation">Semantic Segmentation</a></li>
+        <li><a href="#semantic-segmentation-using-fcn-32">Semantic Segmentation using FCN 32</a></li>
       </ul>
     </li>
     <li>
@@ -108,6 +108,8 @@ Use ```Table of Contents``` for easy navigation through projects.
 
 <!-- Project1 -->
 ## Project 1
+
+### Hybrid Images | Image Pyramids | Edge Detection | Template Matching
 
 The outputs for this project is as follows:
 
@@ -145,6 +147,8 @@ Original Image | Reconstructed Image
 <!-- Project2 -->
 ## Project 2
 
+### Feature Tracker | Shape Alignment | Object Instance Recognition
+
 The outputs for this project is as follows:
 
 ### Feature Tracker
@@ -166,6 +170,8 @@ Corners Detector | Optical Flow
 <!-- Project3 -->
 ## Project 3
 
+### Epipolar Geometry | Image Stitching | Structure from Motion
+
 The outputs for this project is as follows:
 
 ### Epipolar Geometry
@@ -177,6 +183,10 @@ Image 1 | Image 2
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/2_a_main.PNG?raw=true" width=100% alt="stitch">
 
 ### Affine Structure from Motion
+
+- Aims to reconstruct the 3D structure of a scene from a sequence of 2D images. 
+- The goal is to recover the 3D positions of the points in the scene, as well as the camera poses and intrinsic parameters.
+
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/3_b(ele90-azi180).PNG?raw=true" height =50% width=50% alt="sfm">
 
 Camera position x | Camera position y | Camera position z
@@ -190,6 +200,8 @@ Camera position x | Camera position y | Camera position z
 
 <!-- Project4 -->
 ## Project 4
+
+### SLIC | Graphcut Segmentation
 
 The outputs for this project is as follows:
 
@@ -214,21 +226,22 @@ Input Image  | Mask Image
 <!-- Project5 -->
 ## Project 5
 
+### Backpropagation | Image Classification | Semantic Segmentation
 The outputs for this project is as follows:
 
-### Basic Backpropagation 
+### Basic Backpropagation in Neural Network
 
 
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/1_main_acc.PNG?raw=true" height =30% width=30% alt="acc">
 
-### Image Classifier
+### Image Classification using CNN
 
 *  (CIFAR-10 dataset)
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/2_loss.PNG?raw=true" height =35% width=35% alt="loss">
 
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_5/output_5/2_conf.PNG?raw=true" height =35% width=35% alt="confusion">
 
-### Semantic Segmentation
+### Semantic Segmentation using FCN 32
 
 * (VGG 16 dataset)
 
