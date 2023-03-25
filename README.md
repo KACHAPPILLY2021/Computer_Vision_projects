@@ -152,11 +152,19 @@ Original Image | Reconstructed Image
 The outputs for this project is as follows:
 
 ### Feature Tracker
+
+* Computed the second moment matrix to locate strong corners.
+* Chose a proper threshold to ignore edges and noisy patches.
+* Did local non-maxima suppression over a 5x5 window centered at each point
+* Applied the Kanade-Lucas-Tomasi tracking procedure to track the keypoints found.
+
 Corners Detector | Optical Flow
 :-------------------------:|:-------------------------:
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/1_main_harris.PNG?raw=true" width=100% alt="harris"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/1_main_flow.PNG?raw=true" width=100% alt="optical flow">
 
 ### Shape Alignment
+* Implemented Iterative Closest Point (ICP) algorithm using Affine transforms.
+
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_2/output_2/2_main.PNG?raw=true" width=100% alt="shape">
 
 ### Object Instance Recognition
@@ -175,6 +183,9 @@ Corners Detector | Optical Flow
 The outputs for this project is as follows:
 
 ### Epipolar Geometry
+
+* An algorithm for automatically estimating the fundamental matrix (F) using RANSAC and the normalized 8-point algorithm.
+
 Image 1 | Image 2
 :-------------------------:|:-------------------------:
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/1_img1.PNG?raw=true" width=100% alt="epi1"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/1_img2.PNG?raw=true" width=100% alt="epi2">
@@ -206,6 +217,10 @@ Camera position x | Camera position y | Camera position z
 The outputs for this project is as follows:
 
 ### SLIC Superpixels
+
+* Simple Linear Iterative Clustering (SLIC) clusters pixels in the five-dimensional color and pixel coordinate space (e.g., r, g, b, x, y)
+* [Main Paper](https://doi.org/10.1109/TPAMI.2012.120)
+
 * Number of superpixels - 1024
 * Weight Initialization - 20
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_4/output_4/1_main(k1024_m20).PNG?raw=true" height =35% width=35% alt="slic">
@@ -243,7 +258,11 @@ The outputs for this project is as follows:
 
 ### Semantic Segmentation using FCN 32
 
-* (VGG 16 dataset)
+* Dataset tested : VGG-16
+* The model uses an encoder-decoder architecture with a ```VGG-16``` pretrained model as the backbone.
+* The fully connected layers are considered as convolutions, allowing images of any shape to be inputed.
+* Five deconvolutions are used to upsample the output, as five maxpool layers were present in the VGG-16 model.
+* No skip connections are used, as it is just an FCN32 architecture.
 
 Original | Ground Truth | FCN-32 output
 :-------------------------:|:-------------------------:|:-------------------------:
