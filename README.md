@@ -190,6 +190,9 @@ Image 1 | Image 2
 :-------------------------:|:-------------------------:
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/1_img1.PNG?raw=true" width=100% alt="epi1"> | <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/1_img2.PNG?raw=true" width=100% alt="epi2">
 
+[DEPTH and HEAT MAP Project](https://github.com/KACHAPPILLY2021/Stereo_vision) 
+
+
 ### Image Stitching
 <img src="https://github.com/KACHAPPILLY2021/Computer_Vision_projects/blob/main/proj_3/output_3/2_a_main.PNG?raw=true" width=100% alt="stitch">
 
