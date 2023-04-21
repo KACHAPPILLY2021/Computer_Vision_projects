@@ -261,7 +261,7 @@ The outputs for this project is as follows:
 
 ### Semantic Segmentation using FCN 32
 
-* Dataset tested : VGG-16
+* Dataset tested : VOC2007
 * The model uses an encoder-decoder architecture with a ```VGG-16``` pretrained model as the backbone.
 * The fully connected layers are considered as convolutions, allowing images of any shape to be inputed.
 * Five deconvolutions are used to upsample the output, as five maxpool layers were present in the VGG-16 model.
